@@ -351,3 +351,9 @@ a {
 .bottomBarBottomMargin {
   margin-bottom: 2.5vh;
 }
+
+.horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 500px;
+}

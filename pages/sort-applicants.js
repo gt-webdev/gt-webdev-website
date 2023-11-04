@@ -63,7 +63,7 @@ function sortMembersPage() {
                     </Select>
                 </FormControl>
                 <div>
-                    <Board data={data} draggable="true" style={{display: "flex", flexWrap: "wrap", backgroundColor: 'gray'}}></Board>
+                    <Board data={data} draggable="true" style={{width: "100%", display: "flex", flexWrap: "wrap", backgroundColor: 'gray'}}></Board>
                 </div>
             </div>
         </div>
