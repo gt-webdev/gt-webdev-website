@@ -351,3 +351,9 @@ a {
 .bottomBarBottomMargin {
   margin-bottom: 2.5vh;
 }
+
+/* Sort Applicants */
+.horizontal {
+  display: flex;
+  flex-wrap: wrap;
+}
