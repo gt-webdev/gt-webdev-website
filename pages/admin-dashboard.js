@@ -104,6 +104,7 @@ const AdminDashboard = () => {
                     // go through entire sheet and store all applicant info
                     const applicants = [];
                     const data = results?.data;
+                    console.log("admin data" + data);
                     for (let rowIdx = 1; rowIdx < data.length; rowIdx++) {
                         const sheetRow = data[rowIdx];
                         const name = sheetRow[nameColumnIdx];
